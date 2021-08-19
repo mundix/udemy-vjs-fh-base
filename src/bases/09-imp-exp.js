@@ -24,3 +24,11 @@ export const  getHeroById = (id) => superHeroes.find((hero) => hero.id === id)
 // }
 
 export const getHeroesByOwner = (owner) => superHeroes.filter( (hero) => hero.owner === owner)
+
+
+//Asi funcinoa
+
+import {getHeroById, getHeroesByOwner} from './bases/09-imp-exp'
+
+console.log(getHeroById(2))
+console.log(getHeroesByOwner('DC'))
