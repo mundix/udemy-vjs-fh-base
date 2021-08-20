@@ -28,7 +28,7 @@ export const getHeroesByOwner = (owner) => superHeroes.filter( (hero) => hero.ow
 
 //Asi funcinoa
 
-import {getHeroById, getHeroesByOwner} from './bases/09-imp-exp'
+// import {getHeroById, getHeroesByOwner} from './bases/09-imp-exp'
 
-console.log(getHeroById(2))
-console.log(getHeroesByOwner('DC'))
+// console.log(getHeroById(2))
+// console.log(getHeroesByOwner('DC'))
