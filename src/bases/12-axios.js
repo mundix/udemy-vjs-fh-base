@@ -17,15 +17,17 @@ const giphyApi = axios.create({
     }
 }) 
 
-giphyApi.get('random')
-    .then( resp => {
-        // console.log(resp.data.data)
-        // const data = resp.data.data 
-        // console.log(data.images.original)
+export default giphyApi
 
-        const { data } = resp.data
-        const { url } = data.images.original
-        const img = document.createElement('img')
-        img.src = url
-        document.body.append(img)
-    })
+// giphyApi.get('random')
+//     .then( resp => {
+//         // console.log(resp.data.data)
+//         // const data = resp.data.data 
+//         // console.log(data.images.original)
+
+//         const { data } = resp.data
+//         const { url } = data.images.original
+//         const img = document.createElement('img')
+//         img.src = url
+//         document.body.append(img)
+//     })
